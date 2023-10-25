@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="73c446f4-b2b1-4863-8f1e-6c5c83dc74a2"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="1550f4a7-6131-42e8-9b7e-a0d7114b70ca"  >
+</g>
+<g transform="matrix(14.3 0 0 6.86 538.1 495.71)" id="ec9479ec-9afa-4f75-9815-6f16bed07607"  >
+<rect style="stroke: rgb(29,29,29); stroke-width: 4; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(30,30,30); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-33.085" y="-33.085" rx="0" ry="0" width="66.17" height="66.17" />
+</g>
+<g transform="matrix(1 0 0 1 540 320.93)" style="" id="52aa54c7-e88e-4db7-892e-09504c94b8ea"  >
+		<text xml:space="preserve" font-family="Raleway" font-size="62" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-255.72" y="19.48" style="white-space: pre; ">Leetcode digest</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 457.29 407.52)" style="" id="4a7f1715-3b87-48c1-b568-9a6a3b4f5117"  >
+		<text xml:space="preserve" font-family="Alegreya" font-size="46" font-style="normal" font-weight="700" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-58.63" y="14.45" style="white-space: pre; ">rank : {rank}</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 209.37 514.53)" style="" id="28f686ac-830e-49d7-9db1-3fba91d9682f"  >
+		<text xml:space="preserve" font-family="Lato" font-size="40" font-style="normal" font-weight="400" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(43,255,38); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-52.3" y="12.57" style="white-space: pre; ">easy : {easy}</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 173.52 574.1)" style=""  >
+		<text xml:space="preserve" font-family="Lato" font-size="40" font-style="normal" font-weight="400" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,157,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-87.36" y="12.57" style="white-space: pre; ">medium  : {medium}</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 202.52 625.1)" style=""  >
+		<text xml:space="preserve" font-family="Lato" font-size="40" font-style="normal" font-weight="400" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-57.12" y="12.57" style="white-space: pre; ">hard  : {hard}</tspan></text>
+</g>
+</svg>
