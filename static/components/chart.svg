@@ -1,29 +1,6 @@
-<!--
-
-<svg xmlns="http://www.w3.org/2000/svg" id="sv" width="70" height="70" viewBox="0 0 70 70">
-<path id="0" fill="{color1}" d="{matrix1}"></path>
-<path id="1" fill="{color2}" d="{matrix2}"></path>
-</svg>
--->
-
-<svg xmlns="http://www.w3.org/2000/svg" id="sv" width="70" height="70" viewBox="0 0 70 70"><path id="0" fill="#cccccc" d="M35, 0 A35,35 0 0 1 35.003054326187105,69.99999986672988 L35.00218166156222,59.999999904807055 A25,25 0 0 0 35,10 Z"></path><path id="1" fill="#63092" d="M35.003054326187105, 69.99999986672988 A35,35 0 0 1 34.993891347649054,5.330804810910195e-7 L34.99563667689218,10.000000380771773 A25,25 0 0 0 35.00218166156222,59.999999904807055 Z"></path></svg>  
-
-<svg version="1.1" style="font-family: Roboto; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="100" height="400" viewBox="0 0 100 400" aria-hidden="false" aria-label="Interactive chart">
-<defs aria-hidden="true">
-<clipPath >
-<rect x="0" y="0" width="80" height="337" fill="none">
-</rect>
-</clipPath>
-<clipPath >
-<rect x="0" y="0" width="80" height="213.62830044410595" fill="none"></rect>
-</clipPath>
-</defs>
-<rect fill="#ffffff" x="0" y="0" width="100" height="400" rx="0" ry="0" aria-hidden="true"></rect>
-<rect fill="none" x="10" y="10" width="80" height="337" aria-hidden="true"></rect>
-<g data-z-index="0" aria-hidden="true">
-<path fill="rgb(237, 238, 240)" d="M 50 140.42000000000002 A 38.08 38.08 0 1 1 49.961920006346645 140.4200190399984 M 49.97008000498665 148.58001495999875 A 29.92 29.92 0 1 0 50 148.57999999999998" >
-</path></g>
-<rect fill="none" data-z-index="1" x="10" y="10" width="80" height="337" aria-hidden="true"></rect><g data-z-index="1" aria-hidden="true"></g><g data-z-index="2" aria-hidden="true"><path fill="none" data-z-index="7" d="M 50 144.5 A 34 34 0 1 1 49.96600000566665 144.5000169999986 M 50 178.5 A 0 0 0 1 0 50 178.5">
-</path></g>
-<g data-z-index="3" aria-hidden="false">
-<g data-z-index="0.1" opacity="1" transform="translate(10,10) scale(1 1)" clip-path="url(#highcharts-dpdd7hd-97-)" style="cursor: pointer;" aria-hidden="false"><path fill="#2d99fe" d="M 40 130.42000000000002 A 38.08 38.08 0 0 1 62.35204385385587 137.67026539920747 A 4.079999999999998 4.079999999999998 0 1 1 57.56232017088676 144.2766370993773 A 29.92 29.92 0 0 0 40 138.57999999999998 A 4.079999999999998 4.079999999999998 0 1 1 40 130.42000000000002" sweep-flag="0" stroke-linecap="round" stroke-linejoin="round" tabindex="-1" style="outline: none;" role="img" aria-label="0.1."></path></g><g data-z-index="0.1" opacity="1" transform="translate(10,10) scale(1 1)" clip-path="none" aria-hidden="true"></g></g><g data-z-index="3" aria-hidden="true"><g stroke-linecap="round" style="cursor: pointer;" transform="translate(66,10)"><title>Chart context menu</title><rect fill="#ffffff" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" data-z-index="1" stroke="#666666" stroke-width="3"></path><text font-family='Roboto-Regular,Roboto' x="0" data-z-index="1" y="15.5" style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text></g></g><text font-family='Roboto-Regular,Roboto' x="50" text-anchor="middle" data-z-index="4" style="color: rgb(51, 51, 51); font-size: 18px; fill: rgb(51, 51, 51);" y="24" aria-hidden="true"></text><text font-family='Roboto-Regular,Roboto' x="50" text-anchor="middle" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="24" aria-hidden="true"></text><text font-family='Roboto-Regular,Roboto' x="10" text-anchor="start" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="397" aria-hidden="true"></text><g data-z-index="7" aria-hidden="true" transform="translate(17,359)"><rect fill="none" rx="0" ry="0" x="0" y="0" width="66" height="26"></rect><g data-z-index="1"><g><g data-z-index="1" transform="translate(8,3)"><text font-family='Roboto-Regular,Roboto' x="21" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);" text-anchor="start" data-z-index="2" y="15"><title>Series 1</title>Seri…</text><rect x="2" y="4" width="12" height="12" fill="#cccccc" rx="6" ry="6" data-z-index="3"></rect></g></g></g></g><g data-z-index="7" aria-hidden="true"></g></svg>
+<path fill="darkgrey" style="opacity: 0.3;"
+    d="{full_slice}"
+/>
+<path fill="{color}"
+    d="{path_slice}"
+/>
