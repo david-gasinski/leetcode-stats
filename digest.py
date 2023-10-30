@@ -1,6 +1,5 @@
 import requests
 from flask import Flask, Response
-from markupsafe import escape
 from lib.chart import svgDonutChart
 from utils.load_components import svg_template
 
