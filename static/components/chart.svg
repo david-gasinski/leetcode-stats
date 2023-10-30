@@ -1,6 +1,6 @@
-<path fill="darkgrey" style="opacity: 0.3;"
-    d="{full_slice}"
-/>
-<path fill="{color}"
-    d="{path_slice}"
-/>
+<g transform="
+    translate({x},{y})
+">
+    <path fill="darkgrey" style="opacity: 0.3;" d="{full_slice}" />
+    <path fill="{color}" d="{path_slice}" />
+</g>
