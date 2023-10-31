@@ -1,4 +1,7 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <style> 
+        {stylesheet}
+    </style>
  <g>
   <path id="svg_9" d="m0,0l300,0l0,200l-300,0l0,-200z" opacity="undefined" stroke-width="0" stroke="#000" fill="#2e3440"/>
   <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="24" id="svg_4" y="40" x="60" stroke-width="0" stroke="#000" fill="#e5e9f0">Leetcode Digest</text>
@@ -10,7 +13,10 @@
   <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_5" y="117" x="30" stroke-width="0" stroke="#000" fill="#a3be8c">{easy}</text>
   <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_6" y="117" x="115" stroke-width="0" stroke="#000" fill="#ebcb8b">{medium}</text>
   <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_7" y="117" x="230" stroke-width="0" stroke="#000" fill="#bf616a">{hard}</text>
+  <g class='fade-in'>
   {chart}
+   </g> 
   <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_7" y="165" x="105" stroke-width="0" stroke="#000" fill="#e5e9f0">{totalSolved} / {totalProblems}</text>
  </g>
+
 </svg>
