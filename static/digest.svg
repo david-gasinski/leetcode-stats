@@ -1,22 +1,33 @@
-<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-    <style> 
+<svg class="rounded" width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+    <style>
         {stylesheet}
     </style>
- <g>
-  <path id="svg_9" d="m0,0l300,0l0,200l-300,0l0,-200z" opacity="undefined" stroke-width="0" stroke="#000" fill="#2e3440"/>
-  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="24" id="svg_4" y="40" x="60" stroke-width="0" stroke="#000" fill="#e5e9f0">Leetcode Digest</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="16" id="svg_4" y="65" x="80" stroke-width="0" stroke="#000" fill="#e5e9f0">rank {rank}</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_5" y="92" x="30" stroke-width="0" stroke="#000" fill="#a3be8c">easy</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_6" y="92" x="115" stroke-width="0" stroke="#000" fill="#ebcb8b">medium</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_7" y="92" x="230" stroke-width="0" stroke="#000" fill="#bf616a">hard</text>
+    <path id="svg_9" d="m0,0l400,0l0,200l-400,0l0,-200z" opacity="undefined" stroke-width="0" stroke="#000"
+        fill="#2e3440"/>
 
-  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_5" y="117" x="30" stroke-width="0" stroke="#000" fill="#a3be8c">{easy}</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_6" y="117" x="115" stroke-width="0" stroke="#000" fill="#ebcb8b">{medium}</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_7" y="117" x="230" stroke-width="0" stroke="#000" fill="#bf616a">{hard}</text>
-  <g class='fade-in'>
-  {chart}
-   </g> 
-  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="18" id="svg_7" y="165" x="105" stroke-width="0" stroke="#000" fill="#e5e9f0">{totalSolved} / {totalProblems}</text>
- </g>
+    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="14" x="15" y="30"
+        stroke-width="0" stroke="#000" fill="#a3be8c">Easy {easy}
+    </text>
+
+    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="14" x="15" y="70"
+        stroke-width="0" stroke="#000" fill="#ebcb8b">Medium {medium}
+    </text>
+
+    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="14" x="15" y="110"
+        stroke-width="0" stroke="#000" fill="#bf616a">Hard {hard}
+    </text>
+
+    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="24" x="12" y="160"
+        stroke-width="0" stroke="#000" fill="#e5e9f0">{username}
+    
+    </text>
+    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="10" x="12" y="175"
+        stroke-width="0" stroke="#000" fill="#e5e9f0">#{rank}
+    </text>
+
+    {chart}
+    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="14" x="295" y="150"
+        stroke-width="0" stroke="#000" fill="#e5e9f0">{totalCompleted}
+    </text>
 
 </svg>

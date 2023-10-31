@@ -16,6 +16,7 @@ nord_colours = {
     'red' : '#bf616a',
 }
 
+# grabs user data from a leetcode api and returns the svg template with the data filled in.
 def populateSVG(svg: str, username: str, styling: str):
     req = requests.get(f'https://leetcode-stats-api.herokuapp.com/{username}')
     req_json = req.json()
@@ -23,14 +24,14 @@ def populateSVG(svg: str, username: str, styling: str):
     totalSolved = int(req_json["easySolved"]) + int(req_json["mediumSolved"]) + int(req_json["hardSolved"])
     totalSolvedDeg = (totalSolved / totalProblems) * 360
     return svg.format(
+            username=username,
+            rank=req_json["ranking"],  
             easy=req_json["easySolved"], 
             medium=req_json["mediumSolved"], 
             hard=req_json["hardSolved"], 
-            rank=req_json["ranking"],  
-            totalSolved=totalSolved,
-            totalProblems=totalProblems,
-            chart=svgDonutChart(40,135, 'lightgreen', 25, 5, totalSolvedDeg, 50),
-            stylesheet=styling
+            chart=svgDonutChart(275,30, 'lightgreen', 50, 20, totalSolvedDeg, 100),
+            totalCompleted=f'{totalSolved} / {totalProblems}',
+            stylesheet=styling,
         )
 
 @app.route('/svg/<username>')
