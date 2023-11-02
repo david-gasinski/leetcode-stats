@@ -20,6 +20,8 @@ nord_colours = {
 def populateSVG(svg: str, username: str, styling: str):
     req = requests.get(f'https://leetcode-stats-api.herokuapp.com/{username}')
     req_json = req.json()
+    if (req_json['status'] == 'error'):
+        return "User does not exist"
     totalProblems = int(req_json["totalEasy"]) + int(req_json["totalMedium"]) + int(req_json["totalHard"])
     totalSolved = int(req_json["easySolved"]) + int(req_json["mediumSolved"]) + int(req_json["hardSolved"])
     totalSolvedDeg = (totalSolved / totalProblems) * 360
