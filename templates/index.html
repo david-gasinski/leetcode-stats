@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css" />
     <title>Leetcode Digest</title>
+    <script src="/static/js/index.js"></script>
 </head>
+
 <body>
     <div class="container">
-        
+        <div class="inputs">
+            <h1> Leetcode Digest </h1>
+            <p> Generate a custom SVG card to show off your leetcode account! </p>
 
+            <form class="theme-selection">
+                <label for="theme"> Color Theme:</label>
+                <select name="theme" id="theme">
+                    <option value="nord"> nord </option>
+                    <option value="dracula"> dracula </option>
+                    <option value="gruvbox"> gruvbox </option>
+                    <option value="base16"> base16 </option>
+                    <option value="one_dark"> one dark </option>
+                    <option value="monokai"> monokai </option>
+                    <option value="solarized_dark"> solarized dark </option>
+                    <option value="solarized_light"> solarized light </option>
+                    <option value="tokyo"> tokyo </option>
+                    <option value="terminal"> terminal </option>
+                </select>
+                <br> <br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" />
+                <br> <br>
+            </form>
+            <button type="submit" name="submit" id="submit"> Generate!</button>
+            <br><br>
+            <br><br>
+            <h4> Paste this into your readme.md</h4>
+            <div class="url"></div>
+        </div> 
     </div>
 </body>
+
 </html>

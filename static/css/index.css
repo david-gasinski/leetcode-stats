@@ -1,0 +1,15 @@
+div.container {
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+div.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 5vh;
+}

@@ -9,7 +9,8 @@ class User:
     def fetchData(self):
         rejected_attr = ['status', 'retrieved', 'reputation', 'contributionPoints']
         data = fetchData(endpoint(self.username))
-            
+
+        # map data to object, ignoring rejected attributes  
         for v in data.items():
             if v[0] not in rejected_attr:
                 setattr(self, v[0], v[1])

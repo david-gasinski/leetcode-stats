@@ -1,4 +1,4 @@
-from flask import Flask, Response, request
+from flask import Flask, Response, request, render_template
 from markupsafe import escape
 from lib.chart import svgDonutChart
 from utils.load_components import svg_template
@@ -42,3 +42,15 @@ def svg(username):
         
     svg_text = populateSVG(svg_template, escape(username), custom_stylesheet)
     return Response(svg_text, mimetype='image/svg+xml')
+
+@app.route('/')
+def customiseSVG():
+    return render_template('index.html')
+
+@app.route('/url', methods=['POST'])
+def url():
+    name = request.form['']
+    email = request.form['']
+    message = request.form['']
+
+    
