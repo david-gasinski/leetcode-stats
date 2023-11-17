@@ -5,7 +5,6 @@ class User:
         self.username = username
         self.fetchData()
 
-
     def fetchData(self):
         rejected_attr = ['status', 'retrieved', 'reputation', 'contributionPoints']
         data = fetchData(endpoint(self.username))

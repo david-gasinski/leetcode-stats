@@ -8,14 +8,6 @@ from lib.user import User
 
 app = Flask(__name__)
 
-nord_colours = {
-    'dark ': '#2e3440',
-    'light' : '#eceff4',
-    'green' : '#a3be8c',
-    'yellow' : '#ebcb8b',
-    'red' : '#bf616a',
-}
-
 
 # grabs user data from a leetcode api and returns the svg template with the data filled in.
 def populateSVG(svg: str, username: str, styling: str):
@@ -31,6 +23,7 @@ def populateSVG(svg: str, username: str, styling: str):
             stylesheet=styling,
         )
 
+# returns the generated svg with a given user name
 @app.route('/svg/<username>')
 def svg(username):
     custom_stylesheet = request.args.get('stylesheet')
@@ -43,9 +36,11 @@ def svg(username):
     svg_text = populateSVG(svg_template, escape(username), custom_stylesheet)
     return Response(svg_text, mimetype='image/svg+xml')
 
+# app to customise svg
 @app.route('/')
 def customiseSVG():
     return render_template('index.html')
+
 
 @app.route('/url', methods=['POST'])
 def url():
