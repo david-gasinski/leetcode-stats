@@ -1,7 +1,7 @@
 const themes = {
     "nord" : "nord.png",
     "dracula" : "dracula.png",
-    "gruvbox" : "base16.png",
+    "gruvbox" : "gruvbox.png",
     "one_dark" : "one_dark.png",
     "monokai" : "monokai.png",
     "solarized_dark" : "solarized_dark.png",
@@ -10,19 +10,13 @@ const themes = {
     "terminal" : "terminal.png"  
 }
 
-
-// on click
-// fetch url from flask 
-
 const url = document.getElementById("url")
 const theme = document.getElementById("theme");
 const user = document.getElementById("username"); 
 
 function updateURL(){
     // find url and set style
-    
     var unique_url = `![](https://digest.gasinski.dev/svg/${user.value}?theme=${theme.value})`
-
     // set to new text, prevents text s
     url.innerHTML = unique_url
     url.href = unique_url
@@ -33,3 +27,8 @@ let button = document.getElementById("submit");
 button.addEventListener("click", updateURL);
 
 // update image on theme change
+theme.addEventListener("change", function() {
+    // get img and update it to theme
+    document.getElementById("example_img").setAttribute("src", `/static/img/${themes[theme.value]}`)
+
+})

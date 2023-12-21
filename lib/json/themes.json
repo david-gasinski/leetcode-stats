@@ -1,0 +1,65 @@
+{
+    "nord" : {
+        "dark" : "#2e3440",
+        "light" : "#eceff4",
+        "green" : "#eceff4",
+        "yellow" : "#eceff4",
+        "red" : "#eceff4"
+    },
+    "dracula" : {
+        "dark" : "#282a36",
+        "light" : "#f8f8f2",
+        "green" : "#50fa7b",
+        "yellow" : "#f1fa8c",
+        "red" : "#ff5555"
+    },
+    "gruvbox" : {
+        "dark" : "#282828",
+        "light" : "#fbf1c7",
+        "green" : "#98971a",
+        "yellow" : "#d79921",
+        "red" : "#cc241d"
+    },
+    "one_dark" : {
+        "dark" : "#282c34",
+        "light" : "#Abb2bF",
+        "green" : "#98c379",
+        "yellow" : "#E5c07b",
+        "red" : "#e06c75"
+    },
+    "monokai" : {
+        "dark" : "#2e2e2e",
+        "light" : "#d6d6d6",
+        "green" : "#b4d273",
+        "yellow" : "#e5b567",
+        "red" : "#e56767"
+    },
+    "solarized_dark" : {
+        "dark" : "#073642",
+        "light" : "#fdf6e3",
+        "green" : "#859900",
+        "yellow" : "#b58900",
+        "red" : "#d30102"
+    }, 
+    "solarized_light" : {
+        "dark" : "#fdf6e3",
+        "light" : "#073642",
+        "green" : "#859900",
+        "yellow" : "#b58900",
+        "red" : "#d30102"
+    },
+    "tokyo" : {
+        "dark" : "#24283b",
+        "light" : "#9aa5ce",
+        "green" : "#9ece6a",
+        "yellow" : "#e0af68",
+        "red" : "#f7768e"
+    },
+    "terminal" : {
+        "dark" : "#0c0c0c",
+        "light" : "#cccccc",
+        "green" : "#13a10e",
+        "yellow" : "#c19c00",
+        "red" : "#c50f1f"
+    }
+}
