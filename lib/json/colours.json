@@ -1,0 +1,9 @@
+{
+    "nord" : {
+        "dark" : "#2e3440",
+        "light" : "#eceff4",
+        "green" : "#a3be8c",
+        "yellow" : "#ebcb8b",
+        "red" : "#bf616a"
+    }
+}
