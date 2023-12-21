@@ -13,3 +13,14 @@ div.inputs {
     align-items: center;
     padding-top: 5vh;
 }
+
+
+div.url{
+    font-size: 20px;
+    color: blue;
+    padding-bottom: 1.5rem;
+}
+
+div.footer{
+    padding-top: 15vh;
+}

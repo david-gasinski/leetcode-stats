@@ -47,10 +47,4 @@ def svg(username):
 def customiseSVG():
     return render_template('index.html')
 
-@app.route('/url', methods=['POST'])
-def url():
-    name = request.form['']
-    email = request.form['']
-    message = request.form['']
-
     
