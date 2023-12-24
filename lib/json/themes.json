@@ -2,9 +2,9 @@
     "nord" : {
         "dark" : "#2e3440",
         "light" : "#eceff4",
-        "green" : "#eceff4",
-        "yellow" : "#eceff4",
-        "red" : "#eceff4"
+        "green" : "#a3be8c",
+        "yellow" : "#ebcb8b",
+        "red" : "#bf616a"
     },
     "dracula" : {
         "dark" : "#282a36",

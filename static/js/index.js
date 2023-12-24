@@ -13,6 +13,9 @@ const themes = {
 const url = document.getElementById("url")
 const theme = document.getElementById("theme");
 const user = document.getElementById("username"); 
+const realtime_example = document.getElementById("realtime")
+let button = document.getElementById("submit");
+
 
 function updateURL(){
     // find url and set style
@@ -22,13 +25,32 @@ function updateURL(){
     url.href = unique_url
 }
 
-// update URL 
-let button = document.getElementById("submit");
+function updatePreview(){
+    // either update image with inputted username or default example
+    let username = "david-gasinski" 
+    
+    if (user.value) {
+        username = user.value
+    }
+
+    getImagePreview(username).then((data) => {
+        realtime_example.innerHTML = data;
+    })
+}
+
+async function getImagePreview(user) {
+    const res = await fetch(`/svg/${user}?theme=${theme.value}`, {
+        method: "GET",
+        mode: "cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+    });
+    return res.text();
+}
+
+// add listeners
 button.addEventListener("click", updateURL);
+theme.addEventListener("change", updatePreview)
 
-// update image on theme change
-theme.addEventListener("change", function() {
-    // get img and update it to theme
-    document.getElementById("example_img").setAttribute("src", `/static/img/${themes[theme.value]}`)
-
-})
+// run on page load
+updatePreview()
