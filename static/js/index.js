@@ -16,7 +16,7 @@ const user = document.getElementById("username");
 
 function updateURL(){
     // find url and set style
-    var unique_url = `![](https://digest.gasinski.dev/svg/${user.value}?theme=${theme.value})`
+    var unique_url = `![](https://leetcode.gasinski.dev/svg/${user.value}?theme=${theme.value})`
     // set to new text, prevents text s
     url.innerHTML = unique_url
     url.href = unique_url
