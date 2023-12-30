@@ -1,7 +1,11 @@
-<svg id="final" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 200"
+<svg id="final" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
     shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="400" height="200"
-    style="background-color:{theme.dark}; border-radius: 10px;">
+    style="border-radius: 10px; overflow: hidden;">
     {animation}
+
+    <path id="svg_9" d="m0,0l400,0l0,200l-400,0l0,-200z" opacity="undefined" stroke-width="0" stroke="#000"
+        fill="{theme.dark}"/>
+
     <g id="final-u-username" transform="translate(-17.866218 15.188903)" mask="url(#final-u-clipping-paths)"><text
             id="final-u-username2" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="24"
             font-weight="400" transform="translate(50 49.805254)" fill="{theme.light}" stroke-width="0">
@@ -112,7 +116,7 @@ Hard
             </g>
         </mask>
     </g>
-    <g id="final-u-chart" transform="translate(.460386 11.896019)" mask="url(#final-u-clipping-paths6)">
+    <g id="final-u-chart" transform="translate(-8.60386 8.896019)" mask="url(#final-u-clipping-paths6)">
         {chart}
         <text id="final-u-total_complete" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;"
             font-size="14" font-weight="400" transform="translate(293.947383 151.711133)" fill="{theme.light}"
