@@ -1,4 +1,4 @@
-<svg id="final" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 200" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="400" height="200" style="background-color:{theme.dark} border-radius: 6px;">
+<svg id="final" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 200" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="400" height="200" style="background-color:{theme.dark}; border-radius: 6px;">
     {animation}
 <g id="final-u-username" transform="translate(-17.866218 10.188903)" mask="url(#final-u-clipping-paths)"><text id="final-u-username2" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="24" font-weight="400" transform="translate(50 49.805254)" fill="{theme.light}" stroke-width="0"><tspan id="final-s-tspan1" y="0" font-weight="400" stroke-width="0"><![CDATA[
 {username}
