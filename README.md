@@ -1,14 +1,16 @@
 # Leetcode Github Stat card
 Generate a custom card to show off your leetcode progess!
 
+## Usage
+
 To use, paste the following markdown into your Github profile `README.md`
 ```markdown
 ![Username's Leetcode Stats](https://leetcode.gasinski.dev/svg/*username*?theme=nord)
 ```
-replacing the **username** with your own.
+replacing the **username** with your own.  
+*or* generate your own with custom themes using [**the generator tool**](https://leetcode.gasinski.dev "Leetcode Stats tool")
 
-Or generate your own with custom themes using [**the generator tool**](https://leetcode.gasinski.dev "Leetcode Stats tool")
-
+## Customisation
 There are *9* different themes to choose from (more to come)...
 
 ### Nord
