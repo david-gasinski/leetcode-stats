@@ -1,6 +1,6 @@
 <svg id="final" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
     shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="400" height="200"
-    style="border-radius: 10px; overflow: hidden;">
+    style="border-radius: 5px; overflow: hidden;">
     {animation}
 
     <path id="svg_9" d="m0,0l400,0l0,200l-400,0l0,-200z" opacity="undefined" stroke-width="0" stroke="#000"
