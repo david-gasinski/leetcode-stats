@@ -1,9 +1,11 @@
 from utils.fetch import fetchData, endpoint
-
+from utils.load_components import animation, font, svg_template
+from lib.chart import svgDonutChart
 class User:
-    def __init__(self, username):
+    def __init__(self, username, theme):
         self.username = username
-        self.fetchData()
+        self.theme = theme
+
 
     def fetchData(self):
         rejected_attr = ['status', 'retrieved', 'reputation', 'contributionPoints']
@@ -20,3 +22,20 @@ class User:
             self.solvedDeg = 0.1
         else:
             self.solvedDeg = (self.totalSolved / self.totalQuestions) * 360
+        self.__generateSVG__()
+
+    def __generateSVG__(self):
+        self.svg = svg_template.format(
+            username=self.username,
+            rank=self.ranking,  
+            easy=self.easySolved, 
+            medium=self.mediumSolved, 
+            hard=self.hardSolved, 
+            chart=svgDonutChart(275,30, self.theme, 50, 20, self.solvedDeg, 100),
+            totalCompleted=f'{self.totalSolved} / {self.totalQuestions}',
+            theme = self.theme,
+            animation = animation,
+            font = font
+        )
+
+    
