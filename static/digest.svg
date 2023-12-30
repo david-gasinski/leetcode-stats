@@ -1,34 +1,29 @@
-<svg class="rounded" width="400" height="200" xmlns="http://www.w3.org/2000/svg">
-    <style>
-        {stylesheet}
-    </style>
-    <path id="svg_9" d="m0,0l400,0l0,200l-400,0l0,-200z" opacity="undefined" stroke-width="0" stroke="#000"
-        fill="{theme.dark}"/>
-
-    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="14" x="15" y="30"
-        stroke-width="0" stroke="#000" fill="{theme.green}">Easy {easy}
-    </text>
-
-    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="14" x="15" y="70"
-        stroke-width="0" stroke="#000" fill="{theme.yellow}">Medium {medium}
-    </text>
-
-    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="14" x="15" y="110"
-        stroke-width="0" stroke="#000" fill="{theme.red}">Hard {hard}
-    </text>
-
-    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="24" x="12" y="160"
-        stroke-width="0" stroke="#000" fill="{theme.light}">{username}
-    
-    </text>
-    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="10" x="12" y="175"
-        stroke-width="0" stroke="#000" fill="{theme.light}">#{rank}
-    </text>
-
-    {chart}
-    <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="14" x="295" y="150"
-        stroke-width="0" stroke="#000" fill="{theme.light}">{totalCompleted}
-    </text>
-
+<svg id="final" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 200" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="400" height="200" style="background-color:{theme.dark}">
+    {animation}
+<g id="final-u-username" transform="translate(-17.866218 10.188903)" mask="url(#final-u-clipping-paths)"><text id="final-u-username2" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="24" font-weight="400" transform="translate(50 49.805254)" fill="{theme.light}" stroke-width="0"><tspan id="final-s-tspan1" y="0" font-weight="400" stroke-width="0"><![CDATA[
+{username}
+]]></tspan></text><mask id="final-u-clipping-paths"><g id="final-u-text_fade_in_to" transform="translate(-99.331729,38.455992)"><rect id="final-u-text_fade_in" width="298.315534" height="32.920379" rx="0" ry="0" transform="scale(0.803185,1.739392) translate(-149.157767,-16.460189)" fill="#fff" stroke-width="0"/></g></mask></g><g id="final-u-rank" transform="translate(-24.397876-13.925713)" mask="url(#final-u-clipping-paths2)"><text id="final-u-rank2" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="14" font-weight="400" transform="translate(58.657866 47.521663)" fill="{theme.light}" stroke-width="0"><tspan id="final-s-tspan2" y="0" font-weight="400" stroke-width="0"><![CDATA[
+#{rank}
+]]></tspan><tspan id="final-s-tspan3" x="0" y="14" font-weight="400" stroke-width="0"><![CDATA[
+ 
+]]></tspan></text><mask id="final-u-clipping-paths2"><g id="final-u-text_fade_in2_to" transform="translate(-99.331729,38.455992)"><rect id="final-u-text_fade_in2" width="298.315534" height="32.920379" rx="0" ry="0" transform="scale(0.724822,1) translate(-149.157767,-16.460189)" fill="#fff" stroke-width="0"/></g></mask></g><g id="final-u-easy" transform="translate(-17.866218 13.272048)" mask="url(#final-u-clipping-paths3)"><text id="final-u-easy2" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="16" font-weight="400" transform="translate(50 74.224854)" fill="{theme.green}" stroke-width="0"><tspan id="final-s-tspan4" y="0" font-weight="400" stroke-width="0"><![CDATA[
+Easy
+]]></tspan></text><text id="final-u-easy_value" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="16" font-weight="400" transform="translate(127.866218 74.224854)" fill="{theme.green}" stroke-width="0"><tspan id="final-s-tspan5" y="0" font-weight="400" stroke-width="0"><![CDATA[
+{easy}
+]]></tspan></text><mask id="final-u-clipping-paths3"><g id="final-u-easy-fade-in_to" transform="translate(-44.298583,66.094769)"><rect id="final-u-easy-fade-in" width="6.460057" height="13.381546" rx="0" ry="0" transform="scale(29.428567,1.965531) translate(-3.230028,-6.690773)" fill="#fff" stroke-width="0"/></g></mask></g><g id="final-u-medium" transform="translate(-17.866218 47.573891)" mask="url(#final-u-clipping-paths4)"><text id="final-u-medium2" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="16" font-weight="400" transform="translate(50 73.654163)" fill="{theme.yellow}" stroke-width="0"><tspan id="final-s-tspan6" y="0" font-weight="400" stroke-width="0"><![CDATA[
+Medium 
+]]></tspan></text><text id="final-u-medium_value" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="16" font-weight="400" transform="translate(127.866218 73.654163)" fill="{theme.yellow}" stroke-width="0"><tspan id="final-s-tspan7" y="0" font-weight="400" stroke-width="0"><![CDATA[
+{medium}
+]]></tspan></text><mask id="final-u-clipping-paths4"><g id="final-u-medium_fade_in_to" transform="translate(-44.298583,62.872066)"><rect id="final-u-medium_fade_in" width="6.460057" height="13.381546" rx="0" ry="0" transform="scale(29.428567,1.965531) translate(-3.230028,-6.690773)" fill="#fff" stroke-width="0"/></g></mask></g><g id="final-u-hard" transform="translate(-17.866218 45.574389)" mask="url(#final-u-clipping-paths5)"><text id="final-u-hard2" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="16" font-weight="400" transform="translate(50 109.078032)" fill="{theme.red}" stroke-width="0"><tspan id="final-s-tspan8" y="0" font-weight="400" stroke-width="0"><![CDATA[
+Hard 
+]]></tspan></text><text id="final-u-hard_value" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="16" font-weight="400" transform="translate(127.866218 109.078032)" fill="{theme.red}" stroke-width="0"><tspan id="final-s-tspan9" y="0" font-weight="400" stroke-width="0"><![CDATA[
+{hard}
+]]></tspan></text><mask id="final-u-clipping-paths5"><g id="final-u-hard_fade_in_to" transform="translate(-46.004915,103.169691)"><rect id="final-u-hard_fade_in" width="6.460057" height="13.381546" rx="0" ry="0" transform="scale(29.428567,1.965531) translate(-3.230028,-6.690773)" fill="#fff" stroke-width="0"/></g></mask></g><g id="final-u-chart" transform="translate(.460386-4.896019)" mask="url(#final-u-clipping-paths6)">
+{chart}
+<text id="final-u-total_complete" dx="0" dy="0" font-family="&quot;emRQOkaDi8w1:::IBM Plex Mono&quot;" font-size="14" font-weight="400" transform="translate(289.947383 151.711133)" fill="{theme.light}" stroke-width="0"><tspan id="final-s-tspan10" y="0" font-weight="400" stroke-width="0"><![CDATA[
+ {totalCompleted}
+]]></tspan><tspan id="final-s-tspan11" x="0" y="28" font-weight="400" stroke-width="0"><![CDATA[
+ 
+]]></tspan></text><mask id="final-u-clipping-paths6"><g id="final-u-chart_mask_to" transform="translate(130.061286,79.788706)"><rect id="final-u-chart_mask" width="100" height="100" rx="0" ry="0" transform="scale(1.984048,1.864715) translate(-42.788687,-42.788687)" fill="#fff" stroke-width="0"/></g></mask></g>
+{font}
 </svg>
-

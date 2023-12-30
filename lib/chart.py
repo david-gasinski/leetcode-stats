@@ -8,7 +8,7 @@ def getCoordsFromDeg(angle, radius, svgSize):
     return [coordX, coordY] 
 
 
-def svgDonutChart(x : int , y : int, color: str,bg_color: str, radius: int, border_size: int, angle: int, svgSize: int):
+def svgDonutChart(x : int , y : int, theme: object, radius: int, border_size: int, angle: int, svgSize: int):
     # due to a bug with svg coordinates, an angle of 360 produces an empty chart.
     if angle == 360:
         angle -= 0.01
@@ -28,5 +28,5 @@ def svgDonutChart(x : int , y : int, color: str,bg_color: str, radius: int, bord
     """
     full_slice = f"M {svgSize} {radius} \n A {radius} {radius} 0 1 0 {outer_coords_full[0]} {outer_coords_full[1]} \n L {inner_coords_full[0]} {inner_coords_full[1]} \n A {radius - border_size} {radius - border_size} 0 1 1 {svgSize - border_size} {radius}"
     return svg_chart_template.format(
-        x=x, y=y, color=color, bg_color=bg_color, path_slice=path_string, full_slice=full_slice
+        x=x, y=y, color=theme.green, bg_color=theme.light, path_slice=path_string, full_slice=full_slice
     )
