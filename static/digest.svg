@@ -119,23 +119,27 @@ Hard
     <g id="final-u-chart" transform="translate(-8.60386 8.896019)" mask="url(#final-u-clipping-paths6)">
         {chart}
         <text id="final-u-total_complete" dx="0" dy="0" font-family="'JetBrains Mono', monospace"
-            font-size="18" font-weight="400" transform="translate(305, 90)" fill="{theme.light}"
+            font-size="18" font-weight="400" transform="translate(280, 85)" fill="{theme.light}"
             stroke-width="0">
             <tspan id="final-s-tspan10" y="0" font-weight="400" stroke-width="0">
                 <![CDATA[
  {acceptanceRate}
 ]]>
             </tspan>
-            <tspan id="final-s-tspan11" x="0" y="28" font-weight="400" stroke-width="0">
+        </text>
+                <text id="final-u-total_complete" dx="0" dy="0" font-family="'JetBrains Mono', monospace"
+            font-size="18" font-weight="400" transform="translate(250, 75)" fill="{theme.light}"
+            stroke-width="0">
+            <tspan id="final-s-tspan11" x="0" y="28" font-size="14" transform="translate(-10,0)" font-weight="400" stroke-width="0">
                 <![CDATA[
                     Acceptance Rate
                 ]]>
             </tspan>
         </text>
         <mask id="final-u-clipping-paths6">
-            <g id="final-u-chart_mask_to" transform="translate(130.061286,94.788706)">
-                <rect id="final-u-chart_mask" width="100" height="100" rx="0" ry="0"
-                    transform="scale(2.25,2.5) translate(-60.788687,-42.788687)" fill="#fff"
+            <g id="final-u-chart_mask_to" transform="translate(205.061286,94.788706)">
+                <rect id="final-u-chart_mask" width="150" height="150" rx="0" ry="0"
+                    transform="scale(2,2) translate(-135.788687,-42.788687)" fill="#fff"
                     stroke-width="0" />
             </g>
         </mask>
