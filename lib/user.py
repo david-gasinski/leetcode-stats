@@ -1,6 +1,7 @@
 from utils.fetch import fetchData, endpoint
 from utils.load_components import animation, font, svg_template
 from lib.chart import svgDonutChart
+
 class User:
     def __init__(self, username, theme):
         self.username = username
@@ -22,6 +23,8 @@ class User:
             self.solvedDeg = 0.1
         else:
             self.solvedDeg = (self.totalSolved / self.totalQuestions) * 360
+
+        print(data.keys)
         self.__generateSVG__()
 
     def __generateSVG__(self):
@@ -39,3 +42,4 @@ class User:
         )
 
     
+
