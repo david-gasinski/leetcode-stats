@@ -119,7 +119,7 @@ Hard
     <g id="final-u-chart" transform="translate(-8.60386 8.896019)" mask="url(#final-u-clipping-paths6)">
         {chart}
         <text id="final-u-total_complete" dx="0" dy="0" font-family="'JetBrains Mono', monospace"
-            font-size="18" font-weight="400" transform="translate(280, 85)" fill="{theme.light}"
+            font-size="18" font-weight="400" transform="translate(285, 85)" fill="{theme.light}"
             stroke-width="0">
             <tspan id="final-s-tspan10" y="0" font-weight="400" stroke-width="0">
                 <![CDATA[
