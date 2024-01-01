@@ -22,9 +22,8 @@ class User:
             self.username = "User not found"
             self.solvedDeg = 0.1
         else:
-            self.solvedDeg = (self.totalSolved / self.totalQuestions) * 360
+            self.solvedDeg = (self.acceptanceRate / 100) * 360
 
-        print(data.keys)
         self.__generateSVG__()
 
     def __generateSVG__(self):

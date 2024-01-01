@@ -28,5 +28,5 @@ def svgDonutChart(x : int , y : int, theme: object, radius: int, border_size: in
     """
     full_slice = f"M {svgSize} {radius} \n A {radius} {radius} 0 1 0 {outer_coords_full[0]} {outer_coords_full[1]} \n L {inner_coords_full[0]} {inner_coords_full[1]} \n A {radius - border_size} {radius - border_size} 0 1 1 {svgSize - border_size} {radius}"
     return svg_chart_template.format(
-        x=x, y=y, center_x=(x+svgSize/2), center_y=(x+svgSize/2), color=theme.green, bg_color=theme.light, path_slice=path_string, full_slice=full_slice
+        x=x, y=y, color=theme.green, bg_color=theme.light, path_slice=path_string, full_slice=full_slice
     )

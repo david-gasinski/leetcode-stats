@@ -23,6 +23,7 @@ function updateURL(){
     // set to new text, prevents text s
     url.innerHTML = unique_url
     url.href = unique_url
+    updatePreview()
 }
 
 function updatePreview(){

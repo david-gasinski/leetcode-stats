@@ -8,7 +8,7 @@
 
     <g id="final-u-username" transform="translate(-17.866218 15.188903)" mask="url(#final-u-clipping-paths)"><text
             id="final-u-username2" dx="0" dy="0" font-family="'JetBrains Mono', monospace" font-size="24"
-            font-weight="400" transform="translate(50 49.805254)" fill="{theme.light}" stroke-width="0">
+            font-weight="400" transform="translate(40 49.805254)" fill="{theme.light}" stroke-width="0">
             <tspan id="final-s-tspan1" y="0" font-weight="400" stroke-width="0">
                 <![CDATA[
                     {username}
@@ -24,8 +24,8 @@
         </mask>
     </g>
     <g id="final-u-rank" transform="translate(-24.397876-8.925713)" mask="url(#final-u-clipping-paths2)"><text
-            id="final-u-rank2" dx="0" dy="0" font-family="'JetBrains Mono', monospace" font-size="14"
-            font-weight="400" transform="translate(58.657866 47.521663)" fill="{theme.light}" stroke-width="0">
+            id="final-u-rank2" dx="0" dy="0" font-family="'JetBrains Mono', monospace" font-size="12"
+            font-weight="400" transform="translate(50 48.521663)" fill="{theme.light}" stroke-width="0">
             <tspan id="final-s-tspan2" y="0" font-weight="400" stroke-width="0">
                 <![CDATA[
                     #{rank}
@@ -46,7 +46,7 @@
     </g>
     <g id="final-u-easy" transform="translate(-17.866218 18.272048)" mask="url(#final-u-clipping-paths3)"><text
             id="final-u-easy2" dx="0" dy="0" font-family="'JetBrains Mono', monospace" font-size="16"
-            font-weight="400" transform="translate(50 74.224854)" fill="{theme.green}" stroke-width="0">
+            font-weight="400" transform="translate(40 74.224854)" fill="{theme.green}" stroke-width="0">
             <tspan id="final-s-tspan4" y="0" font-weight="400" stroke-width="0">
                 <![CDATA[
 Easy
@@ -70,7 +70,7 @@ Easy
     </g>
     <g id="final-u-medium" transform="translate(-17.866218 52.573891)" mask="url(#final-u-clipping-paths4)"><text
             id="final-u-medium2" dx="0" dy="0" font-family="'JetBrains Mono', monospace" font-size="16"
-            font-weight="400" transform="translate(50 73.654163)" fill="{theme.yellow}" stroke-width="0">
+            font-weight="400" transform="translate(40 73.654163)" fill="{theme.yellow}" stroke-width="0">
             <tspan id="final-s-tspan6" y="0" font-weight="400" stroke-width="0">
                 <![CDATA[
 Medium 
@@ -94,7 +94,7 @@ Medium
     </g>
     <g id="final-u-hard" transform="translate(-17.866218 50.574389)" mask="url(#final-u-clipping-paths5)"><text
             id="final-u-hard2" dx="0" dy="0" font-family="'JetBrains Mono', monospace" font-size="16"
-            font-weight="400" transform="translate(50 109.078032)" fill="{theme.red}" stroke-width="0">
+            font-weight="400" transform="translate(40 109.078032)" fill="{theme.red}" stroke-width="0">
             <tspan id="final-s-tspan8" y="0" font-weight="400" stroke-width="0">
                 <![CDATA[
 Hard 
