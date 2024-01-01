@@ -15,7 +15,7 @@ There are *9* different themes to choose from (more to come)...
 
 ### Nord
 ```markdown
-![David's Leetcode Stats](https://leetcode.gasinski.dev/svg/david-gasinski?theme=nord)
+![David's Leetcode Stats](https://leetcode.gasinski.dev/svg/david-gasinski?theme=nord)    
 ```
 ![David's Leetcode Stats](https://leetcode.gasinski.dev/svg/david-gasinski?theme=nord)
 
