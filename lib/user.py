@@ -28,14 +28,16 @@ class User:
         self.__generateSVG__()
 
     def __generateSVG__(self):
+        # font
+        # &quot;emRQOkaDi8w1:::IBM Plex Mono&quot;
         self.svg = svg_template.format(
             username=self.username,
             rank=self.ranking,  
-            easy=self.easySolved, 
-            medium=self.mediumSolved, 
-            hard=self.hardSolved, 
-            chart=svgDonutChart(275,30, self.theme, 50, 20, self.solvedDeg, 100),
-            totalCompleted=f'{self.totalSolved} / {self.totalQuestions}',
+            easy=f"{self.easySolved} / {self.totalEasy}", 
+            medium=f"{self.mediumSolved} / {self.totalMedium}", 
+            hard=f"{self.hardSolved} / {self.totalHard}", 
+            chart=svgDonutChart(235,15, self.theme, 75, 10, self.solvedDeg, 150),
+            acceptanceRate=f"{self.acceptanceRate}%",
             theme = self.theme,
             animation = animation,
             font = font

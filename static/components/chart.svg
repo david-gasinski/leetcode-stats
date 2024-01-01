@@ -1,5 +1,6 @@
 <g transform="
-    translate({x},{y})"
+    translate({x},{y})
+    rotate(0, {center_x}, {center_y})"
     id="final-u-chart2"
 >
     <path fill="{bg_color}" style="opacity: 0.3;" d="{full_slice}" />
